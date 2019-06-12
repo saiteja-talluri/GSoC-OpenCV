@@ -1,4 +1,4 @@
-# Active Appearance Model for Facial Landark Detection in OpenCV
+# Active Appearance Model for Facial Landmark Detection in OpenCV
 This repository contains code snippets to train and run a demo on webcam for detecting facial landmarks using the active apperance model in the OpenCV Facemark API.
  
 
