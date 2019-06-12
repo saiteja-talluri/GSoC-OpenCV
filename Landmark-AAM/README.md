@@ -22,9 +22,16 @@ make
 ```
 Now you can find the trained model in the [models](./models/) folder. Note that for all the demo purposes the AAM.yaml model was used among all the models available in the [link](https://drive.google.com/open?id=1vE3sbc8vJY2M_s-BnRv-GGcXBEtd_gfI) provided above.
 
+## Webcam Demo
+
 <p align='center'>
   <img src='./output/webcam_landmarks.gif' alt='input'/>
 </p>
+
+## Future Work
+
+*  Need to add python bindings to the OpenCV Facemark AAM and then implement this demo in python.
+*  Need to train the model on more datasets, as of now I trained only on LFPW, AFW and IBUG due to memory limitations.
 
 ## Author
 
