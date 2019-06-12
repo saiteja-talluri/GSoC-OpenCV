@@ -12,4 +12,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Acknowledgements
 
-* I would like to thank [aksono Kurnianggoro](https://github.com/kurnianggoro) for his wonderful implementation of AAM in the OpenCV Facemark API.
+* I would like to thank [Laksono Kurnianggoro](https://github.com/kurnianggoro) for his wonderful implementation of AAM in the OpenCV Facemark API.
