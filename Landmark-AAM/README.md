@@ -6,6 +6,10 @@ This repository contains code snippets to train and run a demo on webcam for det
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+<p align='center'>
+  <img src='./output/webcam_landmarks.gif' alt='input'/>
+</p>
+
 ## Author
 
 * Saiteja Talluri - [saiteja-talluri](https://github.com/saiteja-talluri)
