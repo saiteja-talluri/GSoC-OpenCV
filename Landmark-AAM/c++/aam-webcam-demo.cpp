@@ -113,7 +113,7 @@ bool parseArguments(int argc, char** argv,
     const String keys =
         "{ @f face-cascade    |      | (required) path to the cascade model file for the face detector }"
         "{ @e eyes-cascade    |      | (required) path to the cascade model file for the eyes detector }"
-        "{ @m model-name      |      | (required) path of the AAM model to be loaded}"
+        "{ @m model-path      |      | (required) path of the AAM model to be loaded}"
         "{ help h usage ?     |      | aam-webcam-demo -face-cascade -eyes-cascade -model \n"
              " example: aam-webcam-demo models/face_cascade.xml models/eyes_cascade.xml models/AAM.yaml }"
     ;
@@ -127,7 +127,7 @@ bool parseArguments(int argc, char** argv,
 
     cascade = String(parser.get<string>("face-cascade"));
     model = String(parser.get<string>("eyes-cascade"));
-    aam_model = String(parser.get<string>("model-name"));
+    aam_model = String(parser.get<string>("model-path"));
 
     if(cascade.empty() || model.empty() || aam_model.empty()){
         cerr << "one or more required arguments are not found" << '\n';

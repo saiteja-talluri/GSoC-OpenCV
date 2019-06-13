@@ -133,7 +133,7 @@ bool parseArguments(int argc, char** argv,
 
     cascade = String(parser.get<string>("face-cascade"));
     model = String(parser.get<string>("eyes-cascade"));
-    aam_model = String(parser.get<string>("model-name"));
+    aam_model = String(parser.get<string>("model-path"));
     test_images = String(parser.get<string>("test-images"));
 
     if(cascade.empty() || model.empty() || aam_model.empty() || test_images.empty()){

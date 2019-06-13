@@ -134,7 +134,7 @@ bool parseArguments(int argc, char** argv,
     const String keys =
         "{ @f face-cascade    |      | (required) path to the cascade model file for the face detector }"
         "{ @e eyes-cascade    |      | (required) path to the cascade model file for the eyes detector }"
-        "{ @m model-name      |      | (required) path to save the trained AAM model }"
+        "{ @m model-path      |      | (required) path to save the trained AAM model }"
         "{ @i images          |      | (required) path of a text file contains the list of paths to all training images}"
         "{ @a annotations     |      | (required) path of a text file contains the list of paths to all training annotation files}"
         "{ help h usage ?     |      | aam-train -face-cascade -eyes-cascade -model -images -annotations [-t]\n"
@@ -150,7 +150,7 @@ bool parseArguments(int argc, char** argv,
 
     cascade = String(parser.get<string>("face-cascade"));
     model = String(parser.get<string>("eyes-cascade"));
-    aam_model = String(parser.get<string>("model-name"));
+    aam_model = String(parser.get<string>("model-path"));
     images = String(parser.get<string>("images"));
     annotations = String(parser.get<string>("annotations"));
 
