@@ -33,7 +33,7 @@ Code written for OpenCV during GSoC 2019 related to Facial Landmark Detection
   <li><b>[02/06/19]</b> Completed training the AAM model and added links to the model and the sample C++ code has been provided.</li>
   <li><b>[07/06/19]</b> Trained the Kazemi model but the model seemes to not work as efficiently as the LBF and AAM models. May be more training is required but due to RAM limitations could not verify. </li>
   <li><b>[08/06/19]</b> Added sample C++ code for LBF model and LBF seems to dominate the AAM model in both speed and accuracy. </li>
-  <li><b>[11/06/19]</b> Went through the implementation of the <a href="https://github.com/1adrianb/face-alignment">2D-and-3D face alignment</a> implementation and checked if the model can be added to openCV model zoo. <b>[Pushed to second priority as fixing the python bindings to the working LBF and AAM models is more important.]</b></li>
+  <li><b>[11/06/19]</b> Went through the implementation of the <a href="https://github.com/1adrianb/face-alignment">2D-and-3D face alignment</a> and checked if the model can be added to openCV model zoo. <b>[Pushed to second priority as fixing the python bindings to the working LBF and AAM models is more important.]</b></li>
   <li><b>[15/06/19]</b> Went through all the issues and pull requests related to the python bindings on facemark API and these are few which need to be highlighted.
     <ul>
       <li>The discussion for the issue in the python bindings started with this <a href="https://github.com/opencv/opencv_contrib/issues/1661">issue</a> and many work arounds have been tried but many of them failed.</li>
@@ -72,7 +72,7 @@ Code written for OpenCV during GSoC 2019 related to Facial Landmark Detection
         <ul>
           <li> Trained the Kazemi model but the model seemes to not work as efficiently as the LBF and AAM models. May be more training is required but due to RAM limitations could not verify. </li>
           <li> Added sample C++ code for LBF model and LBF seems to dominate the AAM model in both speed and accuracy. </li>
-          <li> Went through the implementation of the <a href="https://github.com/1adrianb/face-alignment">2D-and-3D face alignment</a> implementation and checked if the model can be added to openCV model zoo. <b>[Pushed to second priority as fixing the python bindings to the working LBF and AAM models is more important.]</b></li>
+          <li> Went through the implementation of the <a href="https://github.com/1adrianb/face-alignment">2D-and-3D face alignment</a> and checked if the model can be added to openCV model zoo. <b>[Pushed to second priority as fixing the python bindings to the working LBF and AAM models is more important.]</b></li>
         </ul>
       </td>
       <td>
