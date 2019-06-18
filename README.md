@@ -41,7 +41,7 @@ Code written for OpenCV during GSoC 2019 related to Facial Landmark Detection
       <li> The latest build of opencv_contrib has the same <a href="https://github.com/opencv/opencv_contrib/issues/2140">issue</a> in the fit function and is still open to solve.</li>
     </ul>
   </li>
-<li><b>[17/06/19]</b> There also have been some failed attempts to expose the trainig code of the FaceMark API to the users in python. So I am working on these two things and hope it would get completed before the first evaluation. I was able to fix the fit fucntion but drawLandmarks gave a similar error (channels() == CV_MAT_CN(dtype)) may be of because of the fix, so I am looking into it.
+<li><b>[17/06/19]</b> There also have been some failed attempts to expose the training code of the Facemark API to the users in python. So I am working on these two things and hope it would get completed before the first evaluation. I was able to fix the fit fucntion but drawLandmarks gave a similar error (channels() == CV_MAT_CN(dtype)) may be of because of the fix, so I am looking into it.
   </li>
 </ul>	
 
@@ -92,14 +92,14 @@ Code written for OpenCV during GSoC 2019 related to Facial Landmark Detection
             <li> The latest build of opencv_contrib has the same <a href="https://github.com/opencv/opencv_contrib/issues/2140">issue</a> in the fit function and is still open to solve.</li>
           </ul> 
           </li>
-          <li> There also have been some failed attempts to expose the trainig code of the FaceMark API to the users in python. So I am working on these two things and hope it would get completed before the first evaluation. I was able to fix the fit fucntion but drawLandmarks gave a similar error (channels() == CV_MAT_CN(dtype)) may be of because of the fix, so I am looking into it.
+          <li> There also have been some failed attempts to expose the training code of the Facemark API to the users in python. So I am working on these two things and hope it would get completed before the first evaluation. I was able to fix the fit fucntion but drawLandmarks gave a similar error (channels() == CV_MAT_CN(dtype)) may be of because of the fix, so I am looking into it.
         </li>
         </ul>
       </td>
       <td>
          <ul>
           <li> Fix the python bindings for the fit and the drawLandmarks functions in the facemark API </li>
-          <li> Expose the training implementation of the Facemaek API to the python users and ensure this is done before the first evaluation. </li>
+          <li> Expose the training implementation of the Facemark API to the python users and ensure this is done before the first evaluation. </li>
         </ul>
       </td>
     </tr>  
