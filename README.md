@@ -43,6 +43,8 @@ Code written for OpenCV during GSoC 2019 related to Facial Landmark Detection
   </li>
 <li><b>[17/06/19]</b> There also have been some failed attempts to expose the training code of the Facemark API to the users in python. So I am working on these two things and hope it would get completed before the first evaluation. I was able to fix the fit fucntion but drawLandmarks gave a similar error (channels() == CV_MAT_CN(dtype)) may be of because of the fix, so I am looking into it.
   </li>
+<li><b>[22/06/19]</b> The python bindings for the fit function have been fixed and the changes have been merged into opencv_contrib:3.4 and soon will be merged into opencv_contrib:master as well. Exposing the training code is under process, owing to the inheritance of Kazemi from facemark and not from facemarkTrain, it is taking longer than expected time. However work is in place and proper code refactoring needs to be done before raising a PR. Expect a PR soon...
+  </li>
 </ul>	
 
 <h2> Planning and Schedule in Coding Phase </h2>
