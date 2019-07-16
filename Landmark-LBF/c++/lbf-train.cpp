@@ -3,7 +3,7 @@
  * lbf-train <face_cascade_model> <lbf_model> <training_images> <annotation_files> [test_files]
  *
  * Example:
- * lbf-train models/face_cascade.xml  models/AAM_trained.yaml trian/images_train.txt train/points_train.txt
+ * lbf-train models/face_cascade.xml  models/LBF_trained.yaml trian/images_train.txt train/points_train.txt
  *
  * Notes:
  * the user should provides the list of training images_train

@@ -5,6 +5,7 @@ CMakeFiles/lbf-train.dir/lbf-train.cpp.o: ../lbf-train.cpp
 CMakeFiles/lbf-train.dir/lbf-train.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/lbf-train.dir/lbf-train.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
 CMakeFiles/lbf-train.dir/lbf-train.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
+CMakeFiles/lbf-train.dir/lbf-train.cpp.o: /usr/local/include/opencv4/opencv2/core/async.hpp
 CMakeFiles/lbf-train.dir/lbf-train.cpp.o: /usr/local/include/opencv4/opencv2/core/base.hpp
 CMakeFiles/lbf-train.dir/lbf-train.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/lbf-train.dir/lbf-train.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp

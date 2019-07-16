@@ -120,7 +120,7 @@ int main(int argc, char** argv )
 
         for(unsigned j=0;j<faces.size();j++){
             drawFacemarks(img, landmarks[j], Scalar(0,0,255));
-            // rectangle(img, faces[j], Scalar(255,0,255));
+            rectangle(img, faces[j], Scalar(255,0,255));
         }
 
         if(faces.size() > 0){

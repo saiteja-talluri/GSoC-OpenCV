@@ -72,6 +72,12 @@ opencv2/core/ovx.hpp
 opencv2/core.hpp
 -
 
+/usr/local/include/opencv4/opencv2/core/async.hpp
+opencv2/core/mat.hpp
+-
+chrono
+-
+
 /usr/local/include/opencv4/opencv2/core/base.hpp
 opencv2/opencv_modules.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/opencv_modules.hpp
@@ -363,8 +369,8 @@ vector
 -
 opencv2/core.hpp
 -
-future
--
+opencv2/core/async.hpp
+/usr/local/include/opencv4/opencv2/dnn/opencv2/core/async.hpp
 ../dnn/version.hpp
 /usr/local/include/opencv4/opencv2/dnn/version.hpp
 opencv2/dnn/dict.hpp

@@ -48,8 +48,8 @@ bool parseArguments(int argc, char** argv,
     const String keys =
         "{ @f face-cascade    |      | (required) path to the cascade model file for the face detector }"
         "{ @m model-path      |      | (required) path to the trained LBF model}"
-        "{ help h usage ?     |      |  lbf-demo -face-cascade  -model \n"
-             " example: lbf-demo models/face_cascade.xml  models/LBF.yaml}"
+        "{ help h usage ?     |      |  lbf-webcam-demo -face-cascade  -model \n"
+             " example: lbf-webcam-demo models/face_cascade.xml  models/LBF.yaml}"
     ;
     CommandLineParser parser(argc, argv, keys);
     parser.about("hello");

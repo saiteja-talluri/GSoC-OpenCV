@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++
+CMAKE_SOURCE_DIR = /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build
+CMAKE_BINARY_DIR = /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/aam-webcam-demo.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build
 CMakeFiles/aam-webcam-demo.dir/all:
 	$(MAKE) -f CMakeFiles/aam-webcam-demo.dir/build.make CMakeFiles/aam-webcam-demo.dir/depend
 	$(MAKE) -f CMakeFiles/aam-webcam-demo.dir/build.make CMakeFiles/aam-webcam-demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles --progress-num=5,6 "Built target aam-webcam-demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles --progress-num=5,6 "Built target aam-webcam-demo"
 .PHONY : CMakeFiles/aam-webcam-demo.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/aam-webcam-demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aam-webcam-demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aam-webcam-demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles 0
 .PHONY : CMakeFiles/aam-webcam-demo.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/aam-webcam-demo.dir/clean
 CMakeFiles/aam-train.dir/all:
 	$(MAKE) -f CMakeFiles/aam-train.dir/build.make CMakeFiles/aam-train.dir/depend
 	$(MAKE) -f CMakeFiles/aam-train.dir/build.make CMakeFiles/aam-train.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles --progress-num=3,4 "Built target aam-train"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles --progress-num=3,4 "Built target aam-train"
 .PHONY : CMakeFiles/aam-train.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/aam-train.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aam-train.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aam-train.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles 0
 .PHONY : CMakeFiles/aam-train.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/aam-train.dir/clean
 CMakeFiles/aam-demo.dir/all:
 	$(MAKE) -f CMakeFiles/aam-demo.dir/build.make CMakeFiles/aam-demo.dir/depend
 	$(MAKE) -f CMakeFiles/aam-demo.dir/build.make CMakeFiles/aam-demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles --progress-num=1,2 "Built target aam-demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles --progress-num=1,2 "Built target aam-demo"
 .PHONY : CMakeFiles/aam-demo.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/aam-demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aam-demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aam-demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles 0
 .PHONY : CMakeFiles/aam-demo.dir/rule
 
 # Convenience name for target.

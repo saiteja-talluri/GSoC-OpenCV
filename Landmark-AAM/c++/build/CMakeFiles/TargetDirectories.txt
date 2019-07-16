@@ -1,5 +1,5 @@
-/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles/edit_cache.dir
-/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles/aam-webcam-demo.dir
-/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles/rebuild_cache.dir
-/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles/aam-train.dir
-/home/saiteja/Desktop/GSoC-OpenCV/Landmark-AAM/c++/build/CMakeFiles/aam-demo.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles/edit_cache.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles/aam-webcam-demo.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles/rebuild_cache.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles/aam-train.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-AAM/c++/build/CMakeFiles/aam-demo.dir

@@ -3,7 +3,7 @@
  * aam-webcam-demo <face_cascade_model> <eyes_cascade_model> <aam_model>
  *
  * Example:
- * aam-demo models/face_cascade.xml models/eyes_cascade.xml models/AAM.yaml
+ * aam-webcam-demo models/face_cascade.xml models/eyes_cascade.xml models/AAM.yaml
  *
  *--------------------------------------------------*/
 
