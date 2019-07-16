@@ -1,4 +1,4 @@
-# Active Appearance Model for Facial Landmark Detection in OpenCV
+# LBF Model for Facial Landmark Detection in OpenCV
 This repository contains code snippets to train and run a demo on webcam for detecting facial landmarks using the local binary features model in the OpenCV Facemark API.
  
 
@@ -16,7 +16,7 @@ make
 ```
 cmake ..
 make
-./aam-train ../models/haarcascade_frontalface_alt2.xml ../models/my_LBF.yaml ../train/images_train.txt ../train/points_train.txt
+./lbf-train ../models/haarcascade_frontalface_alt2.xml ../models/my_LBF.yaml ../train/images_train.txt ../train/points_train.txt
 ```
 Now you can find the trained model in the [models](./models/) folder. Note that for all the demo purposes the LBF.yaml model in the models folder was used.
 
