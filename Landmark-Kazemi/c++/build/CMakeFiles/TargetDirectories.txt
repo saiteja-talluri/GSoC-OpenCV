@@ -1,0 +1,5 @@
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-Kazemi/c++/build/CMakeFiles/rebuild_cache.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-Kazemi/c++/build/CMakeFiles/edit_cache.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-Kazemi/c++/build/CMakeFiles/kazemi-webcam-demo.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-Kazemi/c++/build/CMakeFiles/kazemi-train.dir
+/home/saiteja/Desktop/OpenCV-GSoC/Landmark-Kazemi/c++/build/CMakeFiles/kazemi-demo.dir
